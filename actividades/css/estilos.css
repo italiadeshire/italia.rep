@@ -1,0 +1,18 @@
+/* Alternar colores de las filas */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #E6E6FA; /* Lila */
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #D8BFD8; /* Morado */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #6A5ACD; /* Morado */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
